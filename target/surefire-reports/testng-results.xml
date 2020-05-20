@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="26076" started-at="2020-05-17T19:04:31Z" finished-at="2020-05-17T19:04:57Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="26076" started-at="2020-05-17T19:04:31Z" finished-at="2020-05-17T19:04:57Z">
+      <class name="Testpoc.TestngAnnotations">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:Testpoc.TestngAnnotations@13c78c0b]" name="beforesuite" is-config="true" duration-ms="18" started-at="2020-05-17T19:04:31Z" finished-at="2020-05-17T19:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:Testpoc.TestngAnnotations@13c78c0b]" name="beforetest" is-config="true" duration-ms="1" started-at="2020-05-17T19:04:31Z" finished-at="2020-05-17T19:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:Testpoc.TestngAnnotations@13c78c0b]" name="beforeclass" is-config="true" duration-ms="1" started-at="2020-05-17T19:04:57Z" finished-at="2020-05-17T19:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:Testpoc.TestngAnnotations@13c78c0b]" name="beforemethod" is-config="true" duration-ms="1" started-at="2020-05-17T19:04:57Z" finished-at="2020-05-17T19:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="mainTest()[pri:0, instance:Testpoc.TestngAnnotations@13c78c0b]" name="mainTest" duration-ms="0" started-at="2020-05-17T19:04:57Z" finished-at="2020-05-17T19:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTest -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:Testpoc.TestngAnnotations@13c78c0b]" name="aftermethod" is-config="true" duration-ms="0" started-at="2020-05-17T19:04:57Z" finished-at="2020-05-17T19:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:Testpoc.TestngAnnotations@13c78c0b]" name="afterclass" is-config="true" duration-ms="1" started-at="2020-05-17T19:04:57Z" finished-at="2020-05-17T19:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:Testpoc.TestngAnnotations@13c78c0b]" name="aftertest" is-config="true" duration-ms="1" started-at="2020-05-17T19:04:57Z" finished-at="2020-05-17T19:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:Testpoc.TestngAnnotations@13c78c0b]" name="aftersuite" is-config="true" duration-ms="0" started-at="2020-05-17T19:04:57Z" finished-at="2020-05-17T19:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- Testpoc.TestngAnnotations -->
+      <class name="Testpoc.GoogleTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:Testpoc.GoogleTest@12843fce]" name="setUP" is-config="true" duration-ms="12492" started-at="2020-05-17T19:04:31Z" finished-at="2020-05-17T19:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="googleTitle()[pri:0, instance:Testpoc.GoogleTest@12843fce]" name="googleTitle" duration-ms="16" started-at="2020-05-17T19:04:43Z" finished-at="2020-05-17T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testpoc.GoogleTest@12843fce]" name="teardown" is-config="true" duration-ms="829" started-at="2020-05-17T19:04:44Z" finished-at="2020-05-17T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:Testpoc.GoogleTest@12843fce]" name="setUP" is-config="true" duration-ms="5578" started-at="2020-05-17T19:04:44Z" finished-at="2020-05-17T19:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="googleApps()[pri:0, instance:Testpoc.GoogleTest@12843fce]" name="googleApps" duration-ms="141" started-at="2020-05-17T19:04:50Z" depends-on-methods="Testpoc.GoogleTest.googleTitle" finished-at="2020-05-17T19:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleApps -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testpoc.GoogleTest@12843fce]" name="teardown" is-config="true" duration-ms="615" started-at="2020-05-17T19:04:50Z" finished-at="2020-05-17T19:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:Testpoc.GoogleTest@12843fce]" name="setUP" is-config="true" duration-ms="5708" started-at="2020-05-17T19:04:51Z" finished-at="2020-05-17T19:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="googleLogo()[pri:0, instance:Testpoc.GoogleTest@12843fce]" name="googleLogo" duration-ms="53" started-at="2020-05-17T19:04:56Z" depends-on-methods="Testpoc.GoogleTest.googleTitle" finished-at="2020-05-17T19:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testpoc.GoogleTest@12843fce]" name="teardown" is-config="true" duration-ms="602" started-at="2020-05-17T19:04:56Z" finished-at="2020-05-17T19:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testpoc.GoogleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
