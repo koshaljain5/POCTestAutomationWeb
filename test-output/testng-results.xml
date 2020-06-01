@@ -1,49 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20439" started-at="2020-05-20T02:27:21Z" finished-at="2020-05-20T02:27:42Z">
+  <suite started-at="2020-06-01T17:48:19Z" name="Default suite" finished-at="2020-06-01T17:48:48Z" duration-ms="29118">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20439" started-at="2020-05-20T02:27:21Z" finished-at="2020-05-20T02:27:42Z">
-      <class name="Testpoc.GoogleTest">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:Testpoc.GoogleTest@527e5409]" name="setUP" is-config="true" duration-ms="6961" started-at="2020-05-20T02:27:21Z" finished-at="2020-05-20T02:27:28Z">
+    <test started-at="2020-06-01T17:48:19Z" name="Default test" finished-at="2020-06-01T17:48:48Z" duration-ms="29118">
+      <class name="Testpoc.BankTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:Testpoc.BankTest@2e8c1c9b]" started-at="2020-06-01T17:48:19Z" name="setUP" finished-at="2020-06-01T17:48:32Z" duration-ms="13265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="googleTitle()[pri:0, instance:Testpoc.GoogleTest@527e5409]" name="googleTitle" duration-ms="21" started-at="2020-05-20T02:27:28Z" finished-at="2020-05-20T02:27:28Z">
+        <test-method signature="bankTitle()[pri:0, instance:Testpoc.BankTest@2e8c1c9b]" started-at="2020-06-01T17:48:32Z" name="bankTitle" finished-at="2020-06-01T17:48:32Z" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Testpoc.GoogleTest@527e5409]" name="teardown" is-config="true" duration-ms="636" started-at="2020-05-20T02:27:28Z" finished-at="2020-05-20T02:27:29Z">
+        </test-method> <!-- bankTitle -->
+        <test-method signature="bankLogin()[pri:0, instance:Testpoc.BankTest@2e8c1c9b]" started-at="2020-06-01T17:48:32Z" name="bankLogin" finished-at="2020-06-01T17:48:41Z" depends-on-methods="Testpoc.BankTest.bankTitle" duration-ms="8609" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:Testpoc.GoogleTest@527e5409]" name="setUP" is-config="true" duration-ms="5731" started-at="2020-05-20T02:27:29Z" finished-at="2020-05-20T02:27:34Z">
+        </test-method> <!-- bankLogin -->
+        <test-method signature="bankLogout()[pri:0, instance:Testpoc.BankTest@2e8c1c9b]" started-at="2020-06-01T17:48:41Z" name="bankLogout" finished-at="2020-06-01T17:48:47Z" depends-on-methods="Testpoc.BankTest.bankLogin" duration-ms="6471" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="googleApps()[pri:0, instance:Testpoc.GoogleTest@527e5409]" name="googleApps" duration-ms="101" started-at="2020-05-20T02:27:34Z" depends-on-methods="Testpoc.GoogleTest.googleTitle" finished-at="2020-05-20T02:27:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleApps -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Testpoc.GoogleTest@527e5409]" name="teardown" is-config="true" duration-ms="672" started-at="2020-05-20T02:27:35Z" finished-at="2020-05-20T02:27:35Z">
+        </test-method> <!-- bankLogout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testpoc.BankTest@2e8c1c9b]" started-at="2020-06-01T17:48:47Z" name="teardown" finished-at="2020-06-01T17:48:48Z" duration-ms="701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:Testpoc.GoogleTest@527e5409]" name="setUP" is-config="true" duration-ms="5618" started-at="2020-05-20T02:27:35Z" finished-at="2020-05-20T02:27:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="googleLogo()[pri:0, instance:Testpoc.GoogleTest@527e5409]" name="googleLogo" duration-ms="52" started-at="2020-05-20T02:27:41Z" depends-on-methods="Testpoc.GoogleTest.googleTitle" finished-at="2020-05-20T02:27:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleLogo -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Testpoc.GoogleTest@527e5409]" name="teardown" is-config="true" duration-ms="603" started-at="2020-05-20T02:27:41Z" finished-at="2020-05-20T02:27:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testpoc.GoogleTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- Testpoc.BankTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

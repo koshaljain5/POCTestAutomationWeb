@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Testpoc.GoogleTest">
+      <class name="Testpoc.BankTest">
         <methods>
-          <include name="googleApps"/>
-          <include name="teardown"/>
-          <include name="googleLogo"/>
           <include name="setUP"/>
-          <include name="googleTitle"/>
+          <include name="bankTitle"/>
+          <include name="bankLogout"/>
+          <include name="teardown"/>
+          <include name="bankLogin"/>
         </methods>
-      </class> <!-- Testpoc.GoogleTest -->
+      </class> <!-- Testpoc.BankTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

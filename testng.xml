@@ -4,7 +4,7 @@
   <test thread-count="3" name="Test">
     <classes>
       <!-- <class name="Testpoc.TestngAnnotations"/>-->
-      <class name="Testpoc.GoogleTest"/>
+      <class name="Testpoc.BankTest"/>
       <!-- <class name="Testpoc.videogameAPI"/>-->
     </classes>
   </test> <!-- Test -->

@@ -1,4 +1,5 @@
+Testpoc\waitTest.class
 Testpoc\videogameAPI.class
 ExcelUtils\ExcelUtils.class
-Testpoc\GoogleTest.class
+Testpoc\BankTest.class
 Testpoc\TestngAnnotations.class

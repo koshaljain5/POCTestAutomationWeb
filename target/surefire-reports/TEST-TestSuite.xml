@@ -1,138 +1,125 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="TestSuite" time="0.212" errors="0" skipped="0">
+<testsuite tests="7" failures="2" name="TestSuite" time="58.204" errors="0" skipped="4">
   <properties>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="TestAutomationPOC"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\Users\Koshal Jain\.jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="e56b700bb6a627ee"/>
-    <property name="os.name" value="Windows 8.1"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_241\lib\resources.jar;C:\Program Files\Java\jre1.8.0_241\lib\rt.jar;C:\Program Files\Java\jre1.8.0_241\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_241\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_241\lib\jce.jar;C:\Program Files\Java\jre1.8.0_241\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_241\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_241\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="TEMP" value="C:\Users\KOSHAL~1\AppData\Local\Temp"/>
-    <property name="java.runtime.version" value="1.8.0_241-b07"/>
-    <property name="user.name" value="Koshal Jain"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files"/>
-    <property name="PROMPT" value="$P$G"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="TestAutomationPOC"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/TestAutomationPOC/1/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_241\bin"/>
-    <property name="Android_Home" value="C:\Users\Koshal Jain\AppData\Local\Android\Sdk"/>
-    <property name="LOCALAPPDATA" value="C:\Users\Koshal Jain\AppData\Local"/>
-    <property name="java.version" value="1.8.0_241"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="USERNAME" value="Koshal Jain"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_241\lib\endorsed"/>
-    <property name="BUILD_ID" value="1"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="HOMEDRIVE" value="C:"/>
-    <property name="maven.conf" value="C:\Users\Koshal Jain\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="=::" value="::\"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="US"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_241"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="6.3"/>
-    <property name="=ExitCode" value="00000082"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/TestAutomationPOC/1/display/redirect"/>
-    <property name="TMP" value="C:\Users\KOSHAL~1\AppData\Local\Temp"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.version" value="25.241-b07"/>
-    <property name="user.variant" value=""/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/TestAutomationPOC/display/redirect"/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="USERDOMAIN_ROAMINGPROFILE" value="Koshal"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="FP_NO_HOST_CHECK" value="NO"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_241"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
-    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
-    <property name="HOMEPATH" value="\Users\Koshal Jain"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="COMPUTERNAME" value="KOSHAL"/>
-    <property name="user.script" value=""/>
-    <property name="user.home" value="C:\Users\Koshal Jain"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-TestAutomationPOC-1"/>
-    <property name="JENKINS_SERVER_COOKIE" value="e56b700bb6a627ee"/>
-    <property name="=E:" value="E:\Koshal-Practice\Jenkins"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\Users\Koshal Jain"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Koshal Jain\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\nodejs\;C:\Users\Koshal Jain\AppData\Local\Android\Sdk\tools;C:\Users\Koshal Jain\AppData\Local\Android\Sdk\platform-tools;E:\Koshal-Practice\apache-maven-3.6.3\bin;E:\Koshal-Practice\gradle-6.4.1\bin;C:\Users\Koshal Jain\AppData\Roaming\npm;C:\Users\Koshal Jain\.dotnet\tools;."/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\Users\Koshal Jain\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\Users\Koshal Jain\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
-    <property name="java.class.path" value="C:\Users\Koshal Jain\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\Koshal Jain\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\Koshal Jain\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Koshal Jain\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\Koshal Jain\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\Koshal Jain\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Koshal Jain\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 58868"/>
-    <property name="Path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\nodejs\;C:\Users\Koshal Jain\AppData\Local\Android\Sdk\tools;C:\Users\Koshal Jain\AppData\Local\Android\Sdk\platform-tools;E:\Koshal-Practice\apache-maven-3.6.3\bin;E:\Koshal-Practice\gradle-6.4.1\bin;C:\Users\Koshal Jain\AppData\Roaming\npm;C:\Users\Koshal Jain\.dotnet\tools"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
-    <property name="SESSIONNAME" value="Console"/>
-    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Koshal-Practice\workspace\TestPOCAutomationWeb"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="M2_HOME" value="C:\Users\Koshal Jain\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
-    <property name="java.io.tmpdir" value="C:\Users\KOSHAL~1\AppData\Local\Temp\"/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="HUDSON_HOME" value="C:\Users\Koshal Jain\.jenkins"/>
-    <property name="PATH+MAVEN" value="C:\Users\Koshal Jain\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/TestAutomationPOC/1/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Koshal-Practice\workspace\TestPOCAutomationWeb"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
     <property name="os.arch" value="amd64"/>
-    <property name="SystemRoot" value="C:\Windows"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_241\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="user.dir" value="E:\Koshal-Practice\workspace\ApiAutomationPOC"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/TestAutomationPOC/"/>
-    <property name="LOGONSERVER" value="\\KOSHAL"/>
-    <property name="USERDOMAIN" value="Koshal"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
-    <property name="MAVEN_HOME" value="C:\Users\Koshal Jain\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="1"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="PROCESSOR_REVISION" value="3a09"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="windir" value="C:\Windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Koshal-Practice\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5512543406217687585.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-14.0.1/bin/server;C:/Program Files/Java/jdk-14.0.1/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files (x86)\Java\jre1.8.0_251\bin;D:\Koshal-Practice\apache-jmeter-5.3\bin;D:\Koshal-Practice\Jenkins;C:\Program Files\Git\cmd;C:\Program Files\Git\bin\git.exe;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;C:\Users\admin\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Users\Koshal Jain\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\Users\Koshal Jain\.jenkins\workspace\TestAutomationPOC@tmp"/>
-    <property name="WORKSPACE" value="C:\Users\Koshal Jain\.jenkins\workspace\TestAutomationPOC"/>
-    <property name="maven3.interceptor.common" value="C:\Users\Koshal Jain\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="admin"/>
+    <property name="java.class.path" value="C:\Users\Koshal Jain\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.15.0.20200310-1832\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Koshal-Practice\workspace\TestPOCAutomationWeb\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Testpoc.GoogleTest" name="googleTitle" time="0.018"/>
-  <testcase classname="Testpoc.GoogleTest" name="googleApps" time="0.141"/>
-  <testcase classname="Testpoc.GoogleTest" name="googleLogo" time="0.052"/>
+  <testcase classname="Testpoc.BankTest" name="setUP" time="11.634">
+    <failure message="timeout: Timed out receiving message from renderer: 3.035
+  (Session info: chrome=83.0.4103.61)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-BR4SE3P&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2aae461cc40f670d34bccbac0db69cc8" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 3.035
+  (Session info: chrome=83.0.4103.61)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-BR4SE3P&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2aae461cc40f670d34bccbac0db69cc8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at Testpoc.BankTest.setUP(BankTest.java:32)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@35bbe5e8
+BeforeSuite
+Beforetest
+</system-out>
+    <system-err>ChromeDriver was started successfully.
+Jun 01, 2020 10:20:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Testpoc.BankTest" name="bankTitle" time="11.636">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testpoc.BankTest" name="teardown" time="11.637">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testpoc.BankTest" name="bankLogin" time="11.641">
+    <skipped/>
+  </testcase>
+  <testcase classname="Testpoc.BankTest" name="bankLogout" time="11.642">
+    <skipped/>
+  </testcase>
   <testcase classname="Testpoc.TestngAnnotations" name="mainTest" time="0.001"/>
+  <testcase classname="Testpoc.waitTest" name="waittestmethod" time="0.013">
+    <failure message="The driver executable does not exist: E:\Koshal-Practice\chromedriver.exe" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: E:\Koshal-Practice\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Testpoc.waitTest.waittestmethod(waitTest.java:23)
+</failure>
+    <system-out>AfterMethod
+AfterClass
+</system-out>
+  </testcase>
 </testsuite>
