@@ -8,59 +8,13 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">1</td><td class="num attn">3</td><td class="num attn">1</td><td class="num">11,121</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">28,988</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Testpoc.BankTest</td><td><a href="#m0">setUP</a></td><td rowspan="1">1591032005625</td><td rowspan="1">11032</td></tr><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Testpoc.waitTest</td><td><a href="#m1">waittestmethod</a></td><td rowspan="1">1591032016701</td><td rowspan="1">9</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">Testpoc.BankTest</td><td><a href="#m2">teardown</a></td><td rowspan="1">1591032016683</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">Testpoc.BankTest</td><td><a href="#m3">bankLogin</a></td><td rowspan="1">1591032016688</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">bankLogout</a></td><td rowspan="1">1591032016689</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">bankTitle</a></td><td rowspan="1">1591032016683</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Testpoc.TestngAnnotations</td><td><a href="#m6">mainTest</a></td><td rowspan="1">1591032016694</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Testpoc.BankTest</td><td><a href="#m0">bankLogin</a></td><td rowspan="1">1591037070256</td><td rowspan="1">9070</td></tr><tr class="passedeven"><td><a href="#m1">bankLogout</a></td><td rowspan="1">1591037079327</td><td rowspan="1">5475</td></tr><tr class="passedeven"><td><a href="#m2">bankTitle</a></td><td rowspan="1">1591037070239</td><td rowspan="1">13</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">Testpoc.BankTest#setUP</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 3.035
-  (Session info: chrome=83.0.4103.61)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-BR4SE3P&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2aae461cc40f670d34bccbac0db69cc8
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at Testpoc.BankTest.setUP(BankTest.java:32)
-... Removed 43 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Testpoc.waitTest#waittestmethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: E:\Koshal-Practice\chromedriver.exe
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at Testpoc.waitTest.waittestmethod(waitTest.java:23)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Testpoc.BankTest#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Testpoc.BankTest#bankLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method BankTest.bankLogin()[pri:0, instance:Testpoc.BankTest@5891e32e] depends on not successfully finished methods
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Testpoc.BankTest#bankLogout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method BankTest.bankLogout()[pri:0, instance:Testpoc.BankTest@5891e32e] depends on not successfully finished methods
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">Testpoc.BankTest#bankTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 3.035
-  (Session info: chrome=83.0.4103.61)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-BR4SE3P&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2aae461cc40f670d34bccbac0db69cc8
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at Testpoc.BankTest.setUP(BankTest.java:32)
-... Removed 43 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">Testpoc.TestngAnnotations#mainTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">Testpoc.BankTest#bankLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Testpoc.BankTest#bankLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Testpoc.BankTest#bankTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
